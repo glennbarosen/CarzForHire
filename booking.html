@@ -43,12 +43,12 @@
         <h2>When do you want the car?</h2>
         <div class="booking">
             <form>
-                <label><strong>Location:</strong> (City, Airport)</label>
-                <input type="text" placeholder="Bergen" style="min-width: 50%; max-width: 95%; margin-bottom: 2rem;">
-                <label><strong>Pick-up Date:</strong></label>
-                <input type="date" style="min-width: 50%; max-width: 95%;">
-                <label><strong>Drop-off Date:</strong></label>
-                <input type="date" style="min-width: 50%; max-width: 95%;">
+                <label for="location"><strong>Location:</strong> (City, Airport)</label>
+                <input  id="location" type="text" placeholder="Bergen" style="min-width: 50%; max-width: 95%; margin-bottom: 2rem;">
+                <label for="pickup"><strong>Pick-up Date:</strong></label>
+                <input id="pickup" type="date" style="min-width: 50%; max-width: 95%;">
+                <label for="dropoff"><strong>Drop-off Date:</strong></label>
+                <input id="dropoff" type="date" style="min-width: 50%; max-width: 95%;">
                 <button type="submit" tabindex="-1"><a href="confirmation.html">Book</a></button>
             </form>
         </div>

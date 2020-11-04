@@ -117,8 +117,12 @@ form button {
     padding: 0.5rem;
     margin: 1rem;
     width: 90%;
-    background: rgb(242, 80, 80);
+    background: #cd2026;
     font-size: 1rem;
+    font-weight: bold;
+}
+form span {
+    font-size: 1.2rem;
     font-weight: bold;
 }
 
@@ -165,7 +169,7 @@ button a {
     border-radius: 10px;
     color: white;
     padding: 0.5rem;
-    background: rgb(242, 80, 80);
+    background: #cd2026;
     font-weight: bold;
 }
 
